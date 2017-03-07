@@ -1,4 +1,4 @@
-<?php namespace Vinelab\Editor;
+<?php namespace namespace Laravel24\Editor;
 
 use View;
 use DOMDocument;
@@ -24,7 +24,7 @@ class Editor {
             $content = Content::make($content)->markdown();
         }
 
-        return view('vendor/laravel-editor/editor')->with(compact('content'))->render();
+        return view('vendor/editor/editor')->with(compact('content'))->render();
     }
 
     /**
