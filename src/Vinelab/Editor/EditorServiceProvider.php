@@ -1,4 +1,4 @@
-<?php namespace Laravel24\Editor;
+<?php namespace laravel24\Editor;
 
 use Blade;
 use Illuminate\Support\ServiceProvider;
