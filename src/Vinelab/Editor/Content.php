@@ -1,14 +1,14 @@
 <?php namespace Vinelab\Editor;
 
 use Michelf\Markdown;
-use Vinelab\Editor\Transformers\Traits\TransformerTrait;
-use Vinelab\Editor\Transformers\Traits\LinkTransformerTrait;
-use Vinelab\Editor\Transformers\Traits\HTMLTransformerTrait;
-use Vinelab\Editor\Transformers\Traits\TwitterTransformerTrait;
-use Vinelab\Editor\Transformers\Traits\YoutubeTransformerTrait;
-use Vinelab\Editor\Transformers\Traits\FacebookTransformerTrait;
-use Vinelab\Editor\Transformers\Traits\InstagramTransformerTrait;
-use Vinelab\Editor\Transformers\Traits\JavascriptTransformerTrait;
+use Laravel24\Editor\Transformers\Traits\TransformerTrait;
+use Laravel24\Editor\Transformers\Traits\LinkTransformerTrait;
+use Laravel24\Editor\Transformers\Traits\HTMLTransformerTrait;
+use Laravel24\Editor\Transformers\Traits\TwitterTransformerTrait;
+use Laravel24\Editor\Transformers\Traits\YoutubeTransformerTrait;
+use Laravel24\Editor\Transformers\Traits\FacebookTransformerTrait;
+use Laravel24\Editor\Transformers\Traits\InstagramTransformerTrait;
+use Laravel24\Editor\Transformers\Traits\JavascriptTransformerTrait;
 
 /**
  * @author Abed Halawi <abed.halawi@vinelab.com>
