@@ -1,6 +1,6 @@
 <?php
 
-use Vinelab\Editor\Editor;
+use Laravel\Editor\Editor;
 use Illuminate\Support\Facades\Input;
 
 /**
