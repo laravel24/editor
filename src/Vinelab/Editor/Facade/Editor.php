@@ -16,6 +16,6 @@ class Editor extends Facade {
      */
     protected static function getFacadeAccessor()
     {
-        return 'vinelab.editor';
+        return 'editor';
     }
 }
