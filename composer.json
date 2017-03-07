@@ -1,5 +1,5 @@
 {
-    "name": "vinelab/laravel-editor",
+    "name": "laravel24/editor",
     "description": "Markdown Text Editor (WYSIWYG) with social network embeds support and a nifty json output.",
     "authors": [
         {
