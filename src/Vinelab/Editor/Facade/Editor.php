@@ -1,4 +1,4 @@
-<?php namespace Vinelab\Editor\Facade;
+<?php namespace Laravel24\Editor\Facade;
 
 use Illuminate\Support\Facades\Facade;
 
