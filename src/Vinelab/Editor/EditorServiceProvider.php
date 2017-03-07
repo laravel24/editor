@@ -1,4 +1,4 @@
-<?php namespace Vinelab\Editor;
+<?php namespace Laravel24\Editor;
 
 use Blade;
 use Illuminate\Support\ServiceProvider;
@@ -19,14 +19,14 @@ class EditorServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-        $this->loadViewsFrom(__DIR__.'/../../views/', 'laravel-editor');
+        $this->loadViewsFrom(__DIR__.'/../../views/', 'editor');
 
         $this->publishes([
-            __DIR__.'/../../views/' => base_path('resources/views/vendor/laravel-editor'),
+            __DIR__.'/../../views/' => base_path('resources/views/vendor/editor'),
         ]);
 
         $this->publishes([
-            __DIR__.'/../../../public/' => public_path('vendor/laravel-editor'),
+            __DIR__.'/../../../public/' => public_path('vendor/editor'),
         ], 'public');
 
 	}
@@ -44,7 +44,7 @@ class EditorServiceProvider extends ServiceProvider {
             $loader->alias('Editor', 'Vinelab\Editor\Facade\Editor');
         });
 
-        $this->app->singleton('vinelab.editor', 'Vinelab\Editor\Editor');
+        $this->app->singleton('laravel24.editor', 'Laravel\Editor\Editor');
 	}
 
 	/**
